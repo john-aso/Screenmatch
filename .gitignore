@@ -1,0 +1,38 @@
+Compilação Java e Maven
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!/src/main//target/
+!/src/test//target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+
+IntelliJ IDEA
+
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+Eclipse / NetBeans / VS Code (caso use)
+
+.settings/
+.classpath
+.project
+.vscode/
+nbproject/private/
+
+Variáveis de ambiente locais e segredos
+
+.env
+.env.*
+*.local
+
+Arquivos de sistema operacional
+
+.DS_Store
+Thumbs.db
