@@ -15,6 +15,7 @@ public class Serie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(unique = true)
     private String titulo;
     private Integer totalTemporadas;
     private double avaliacao;
